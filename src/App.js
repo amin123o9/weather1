@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import './WeatherDisplay.css';
 
 const WeatherDisplay = () => {
   return (
     <div className="weather-container">
       <h1 className="weather-title">Weather in New York</h1>
       <div className="weather-card">
-        <div className="temperature-container">
+        <div className="weather-main">
           <span className="weather-icon">☀️</span>
           <span className="temperature">72°F</span>
         </div>
@@ -20,7 +20,7 @@ const WeatherDisplay = () => {
             <span>Humidity: 60%</span>
           </div>
           <div className="weather-detail">
-            <span className="detail-icon">🌬️</span>
+            <span className="detail-icon">💨</span>
             <span>Wind: 5 mph</span>
           </div>
         </div>
